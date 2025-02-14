@@ -55,7 +55,7 @@ offset_top = 10.88
 offset_right = -29.2
 offset_bottom = -19.12
 theme_override_font_sizes/font_size = 24
-text = "The chest is empty."
+text = "A hidden chest! Oh... it's empty. Looks like someone beat you to it."
 
 [connection signal="body_exited" from="InteractionArea" to="OpenChest" method="_on_interaction_area_body_exited"]
 [connection signal="body_exited" from="InteractionArea" to="Control" method="_on_interaction_area_body_exited"]
